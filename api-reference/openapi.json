@@ -32,14 +32,14 @@
               "format": "int32"
             }
           },
-    		  {
-    			  "name": "max_completion_tokens",
+    	  {
+    		"name": "max_completion_tokens",
+			"in": "body",
+			"description": "An upper bound for the number of tokens that can be generated for a completion, including visible output tokens and reasoning tokens.",
             "schema": {
-                  "type": "integer",
-                  "format": "int32",
-    			  "minimum": 1
-            },
-			"description": "An upper bound for the number of tokens that can be generated for a completion, including visible output tokens and reasoning tokens."
+            	"type": "integer",
+            	"format": "int32"
+            }
 		  }
         ],
         "responses": {
